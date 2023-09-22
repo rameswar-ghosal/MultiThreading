@@ -11,8 +11,8 @@ class InvalidDataException extends Exception{
 	
 }
 class Atm {
-	int username;
-	int password;
+	private int username;
+	private int password;
 	int uname;
 	int pword;
 	Scanner s=new Scanner(System.in);
